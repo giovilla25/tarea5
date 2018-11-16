@@ -72,7 +72,7 @@ df1<-data.frame(apple$date, microsoft$adjusted, apple$adjusted)
 
 A continuación, procedemos a programar una función que nos permita: (i) calcular los retornos, (ii) graficar los retornos y retornos acumulados y (iii) testear normalidad utilizando el test de Jarque-Bera (JB). El estadístico de este test está dado por las siguientes expresiones:
 
-$$ JB = n ( \frac{{skewness}^2}{6} + \frac{(kurtosis - 3)^2}{24})  $$
+$$ JB = n ( \frac{skewness^2}{6} + \frac{(kurtosis - 3)^2}{24})  $$
 $$ skewness = \frac{ \frac{1}{n} \sum_{i=1}^{n} (x_i - \bar{x})^{3}}{(\frac{1}{n} \sum_{i=1}^{n} (x_i - \bar{x})^{2})^{3/2}} $$
 $$ kurtosis = \frac{ \frac{1}{n} \sum_{i=1}^{n} (x_i - \bar{x})^{4}}{(\frac{1}{n} \sum_{i=1}^{n} (x_i - \bar{x})^{2})^{2}} $$
 
